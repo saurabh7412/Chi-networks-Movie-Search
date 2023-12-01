@@ -1,7 +1,13 @@
 # Chi-networks-Movie-Search
-My Movie Search App
+# My Movie Search App
+
+![Screenshot 2023-12-01 143250](https://github.com/saurabh7412/Chi-networks-Movie-Search/assets/121215502/834da7a4-4f53-46a0-9ff3-90c8c47e3ce9)
+
 
 My Movie Search is a web application that allows users to search for movies, series, games, and more using the OMDb API. The OMDb API is a RESTful web service providing comprehensive movie information, including details, images, and more.
+
+![Screenshot 2023-12-01 143430](https://github.com/saurabh7412/Chi-networks-Movie-Search/assets/121215502/bfed8924-046c-4703-8f47-b291d979f59f)
+
 
 Features
 Authentication: The app features a secure login/signup page. Authentication is implemented using local storage.
