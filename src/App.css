@@ -1,0 +1,427 @@
+.App {
+  text-align: center;
+}
+
+
+/* Nav bar CSS  */
+
+.navbar{
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  padding: 20px ;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: antiquewhite;
+  align-items: center;
+  height: 30px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.navbar img {
+  width: 30%;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(189, 21, 21);
+}
+
+.navbar a:hover{
+  color:rgb(0, 94, 255);
+  scale: 1.2;
+  transition: 500ms;
+  
+}
+
+.logoutbtn{
+  padding: 10px 30px;
+  cursor: pointer;
+  background: none;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(189, 21, 21);
+
+}
+
+.ham{
+
+  display: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: none;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(189, 21, 21);
+
+}
+
+
+
+
+
+
+
+/* Home page CSS */
+
+.homepage{
+  padding: 40px;
+}
+
+
+
+
+
+
+/* Login signup */
+
+.Loginsignup{
+  width: 40%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 20px;
+  background-color: rgb(251, 251, 238);
+}
+
+.head{
+  display: flex;
+  margin: auto;
+  justify-content:space-around;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: antiquewhite;
+  color: rgb(189, 21, 21);
+}
+
+.logindiv:hover{
+  cursor: pointer;
+  color:rgb(0, 94, 255);
+  transition: 500ms;
+  scale: 1.1;
+
+}
+
+.signupdiv:hover{
+  cursor: pointer;
+  color:rgb(0, 94, 255);
+  transition: 500ms;
+  scale: 1.1;
+}
+
+.form{
+  padding: 20px;
+}
+
+.form button{
+  margin-top: 30px;
+  padding: 10px 20px;
+  background: none;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: antiquewhite;
+  color: rgb(189, 21, 21);
+  background-color: antiquewhite;
+}
+
+.form button:hover{
+  cursor: pointer;
+  scale: 1.2;
+  transition: 500ms;
+}
+
+.formfields{
+  
+    display: flex ;
+    justify-content :space-between ;
+    margin: auto;
+    width:80%;
+    padding:10px;
+    align-items: center;
+
+}
+
+.formfields label{
+  color: rgb(84, 84, 84);
+}
+
+.formfields input{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  
+}
+
+.spanlink{
+  color: orange;
+}
+
+.spanlink:hover{
+  cursor: pointer;
+}
+
+
+
+/* Search Movie Page  */
+
+.searchMovie{
+  /* border: 1px solid red; */
+  margin: 20px;
+  padding: 30px;
+
+}
+
+.searchbtn{
+  padding: 10px 30px;
+  cursor: pointer;
+  background: none;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(189, 21, 21);
+}
+
+.searchbtn:hover{
+  scale: 1.1;
+  transition: 500ms;
+}
+
+.searchMovie input{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: transparent;
+  
+}
+
+.movieCard{
+  /* border: 1px solid orange; */
+  margin-top: 40px;
+  color: rgb(7, 162, 168);
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  
+}
+
+.singleMovieCard{
+  margin-top: 40px;
+  color: rgb(7, 85, 168);
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin-top: 40px;
+
+}
+
+.singleMovieCard button{
+  padding: 10px 30px;
+  cursor: pointer;
+  background: none;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(13, 19, 124);
+}
+
+
+.movieCard button{
+  padding: 10px 30px;
+  cursor: pointer;
+  background: none;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(24, 124, 13);
+  margin-top: 20px;
+}
+
+.Movies{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 25px;
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.movieCard span{
+  color: rgb(70, 53, 53);
+}
+
+
+.filterdiv{
+ display: flex;
+ margin: auto;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.filterdiv1 select{
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.filterdiv2 input{
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.filterdiv2 button{
+  padding: 10px 30px;
+  cursor: pointer;
+  background: none;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  font-size: 14px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(189, 21, 21);
+  margin-left: 20px;
+}
+
+.x{
+  /* border: 1px solid ; */
+  margin: 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 20px;
+}
+
+#dropdown{
+  display: none;
+}
+
+
+
+
+
+
+
+
+/* Responsiveness  */
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .Movies{
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+  
+}
+
+@media screen and (max-width: 768px) {
+
+  .formfields{
+  
+    display: flex ;
+    justify-content :space-between ;
+    flex-direction: column;
+    margin: auto;
+    width:80%;
+    padding:5px;
+    align-items: center;
+
+}
+.formfields label{
+  margin-bottom: 10px;
+}
+
+.Movies{
+  grid-template-columns: repeat(1,1fr);
+}
+
+.singleMovieCard{
+  flex-direction: column;
+}
+
+.ham{
+  display: block;
+}
+
+.l1, .l2, .logoutbtn{
+display: none;
+}
+
+
+#dropdown{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  position: absolute;
+  background-color: rgb(238, 233, 227);
+  
+}
+#dropdown a {
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+#dropdown a:hover{
+  scale: 1.1;
+  transition: 500ms;
+  color: red;
+}
+
+#dropdown button{
+  padding: 10px 30px;
+  cursor: pointer;
+  background: none;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(189, 21, 21);
+  margin-top: 20px;
+}
+
+.filterdiv{
+  flex-direction: column;
+  
+}
+
+.filterdiv1, .filterdiv2{
+  margin-top: 20px;
+  padding: 20px;
+
+}
+
+.filterdiv1 select, input{
+  width:90%;
+}
+
+
+  
+}
