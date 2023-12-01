@@ -11,6 +11,7 @@ My Movie Search is a web application that allows users to search for movies, ser
 
 ![Screenshot 2023-12-01 143430](https://github.com/saurabh7412/Chi-networks-Movie-Search/assets/121215502/bfed8924-046c-4703-8f47-b291d979f59f)
 
+*****************************************************************
 
 Features
 Authentication: The app features a secure login/signup page. Authentication is implemented using local storage.
@@ -23,6 +24,9 @@ Favourites Management: Users can add movies to their favourites and delete movie
 
 Responsive Design: The application is fully responsive, ensuring a seamless experience across mobile, tablet, and laptop devices.
 
+
+*****************************************************************
+
 Tech Stack
 React: Frontend framework for building user interfaces.
 
@@ -32,6 +36,7 @@ Sonner: Used for displaying toasts in the application.
 
 JavaScript (JS): The primary language for coding functionalities.
 
+*****************************************************************
 
 Getting Started
 Clone the Repository:
@@ -52,6 +57,9 @@ Copy code
 npm start
 The app will be accessible at http://localhost:3000.
 
+*****************************************************************
+
+
 Usage
 Login/Signup:
 
@@ -68,8 +76,12 @@ Add movies to your favourites or remove them using the local storage-backed favo
 Contributing
 Feel free to contribute to the development of this app by submitting pull requests or reporting issues.
 
+*****************************************************************
+
 License
 This project is licensed under the MIT License.
+
+*****************************************************************
 
 Acknowledgments
 OMDb API: A RESTful web service providing movie information.
