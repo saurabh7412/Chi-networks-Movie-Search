@@ -25,9 +25,14 @@ Responsive Design: The application is fully responsive, ensuring a seamless expe
 
 Tech Stack
 React: Frontend framework for building user interfaces.
+
 CSS/SCSS: Styling is applied using CSS/SCSS for a visually appealing design.
+
 Sonner: Used for displaying toasts in the application.
+
 JavaScript (JS): The primary language for coding functionalities.
+
+
 Getting Started
 Clone the Repository:
 
