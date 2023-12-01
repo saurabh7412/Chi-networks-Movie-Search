@@ -86,6 +86,6 @@ This project is licensed under the MIT License.
 Acknowledgments
 OMDb API: A RESTful web service providing movie information.
 Contact
-For any inquiries or support, please contact saurabh at [saurabh7412.com].
+For any inquiries or support, please contact saurabh at saurabh7412@gmail.com.
 
 Enjoy exploring movies with My Movie Search! 🎬🍿
